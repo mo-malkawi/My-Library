@@ -33,8 +33,8 @@ namespace input
 	{
 		string Input;
 
-		cout << Message << endl;
-		getline(cin, Input);
+		cout << Message ;
+		getline(cin >> ws, Input);
 
 		return Input;
 	}
